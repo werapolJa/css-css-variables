@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* Colors */
+  --branding-color: #ff7f50;
+  --secondary-color: cornsilk;
+  --highlight-color: #d2691e;
+  --muted-color: #a9a9a9;
+
+  /* Margins */
+  --m-1: 1px;
+  --m-2: 5px;
+  --m-3: 10px;
+  --m-4: 15px;
+  --m-5: 20px;
+
+  /* Paddings */
+  --p-1: 1px;
+  --p-2: 5px;
+  --p-3: 10px;
+  --p-4: 15px;
+  --p-5: 20px;
+
+  /* Font size */
+  --font-sm: 12px;
+  --font-md: 16px;
+  --font-lg: 20px;
+  --font-xl: 30px;
+  --font-2xl: 50px;
+  --font-3xl: 100px;
+}

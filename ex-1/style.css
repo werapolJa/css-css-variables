@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-/* Start coding here */
+
 :root {
   --branding-color: #ff7f50;
   --secondary-color: cornsilk;
@@ -35,4 +35,20 @@
 h1{
   color: var(--branding-color);
   font-size: var(--triple-extra-large);
+}
+
+:root {
+  --in-bg-color: cornsilk;
+  --in-pading: 20px;
+  --h1-color: #ff7f50;
+  --h1-text-ex: 100px;
+}
+.introduction {
+  background-color: var(--in-bg-color);
+  padding: var(--in-pading);
+}
+.introduction h1 {
+  color: var(--h1-color);
+  font-size: var(--h1-text-ex);
+
 }
